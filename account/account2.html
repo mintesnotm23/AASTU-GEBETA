@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Resources/images/download.png">
+    <link rel="stylesheet" href="../account/assets/style.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/css/all.css">
+    <link rel="stylesheet" href="../assets/css/hamburger.css">
+    <title>Account Login</title>
+</head>
+<body>
+
+
+    <div class="container flex">
+    
+        <div class="top">
+             <h2 class="title"> <a href="../index.html">AASTU GEBETA.</h2></a>
+             
+             <div class="ham icon nav-icon-5">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+    
+        <nav class="navigation">
+        <ul>
+            <a href="../index.html" id="home" ><li><i class="fas fa-home"></i>Home</li></a>
+            <a href="../foods.html" id="food"><li><i class="fas fa-hamburger"></i>Food and Drinks</li></a>
+            <a href="../Lounges/lounges.html" id="lounge"><li><i class="fas fa-warehouse"></i>Lounges</a> 
+            <a href="home.html#aboutt" id="about"><li><i class="fas fa-question-circle"></i>About Us</li></a> 
+    
+        </ul>
+    
+        </nav>
+    </div>
+    
+    </div>
+
+     <div class="main">
+
+        <form action="submit" class="accountForm">
+
+            <div class="logInPic">
+                <img src="./Resources/images/login.svg" alt="login picture" width="250px">
+            </div>
+            <div class="label">
+                 <label>Please </label> <span class="log">Sign in</span>
+            </div>
+            <!--user name-->
+            <div class="userClass">
+            <span><i class="fas fa-user-alt"></i></span><input type="text" placeholder="Username"id= "user" required><br>
+            </div>
+            <!--password-->
+            <div class="passClass">
+            <span><i class="fas fa-key" id="Picon"></i></span><input type="password" name="" id="pass"placeholder="Password" required>
+            </div>
+
+            <input value="Login" type="submit" class="btn accountBtn" >
+            <a href="login.html">your Profile</a>
+            <a href="DasherProfile.html">your Profile Dasher</a>
+        </form>
+
+        <!--Sign up-->
+
+    <div class="both">
+
+        <div class="signUp">
+            <a href="register.html"> <h5>Don't have an account yet?</h5></a>
+        </div>
+        <!--forgot password-->
+
+        <div class="forgot">
+            <a href="./forgot.html"><h5 id="Forgot">Forgot Password?</h5></a>
+        </div>
+    </div>
+
+
+    </div>
+     
+    <div class="signInWith">
+     <span>Signin With</span> <img src="./Resources/images/google.png" alt="google logo" width="30px">
+    </div>
+  
+    <script src="../assets/js/ham.js"></script>
+</body>
+</html>
