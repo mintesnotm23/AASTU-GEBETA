@@ -1,0 +1,14 @@
+{
+  "name": "aastu-gebeta",
+  "version": "1.0.0",
+  "description": "Online food ordering website - students on the campus",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000"
+  },
+  "author": "Mintesnot M",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
