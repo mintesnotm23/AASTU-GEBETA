@@ -1,0 +1,6 @@
+# List of files to ignore
+.DS_Store
+.vscode
+.env
+.env.local
+node_modules
